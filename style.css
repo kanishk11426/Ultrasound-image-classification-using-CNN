@@ -1,0 +1,63 @@
+/* Set background color to a medical-themed light blue */
+.stApp {
+    background-color: #082d48; /* Light blue */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling - Now Darker and More Prominent */
+.stHeader {
+    color: #003366; /* Deep Navy Blue */
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900; /* Extra bold */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Stronger shadow for contrast */
+    background-color: #B3E5FC; /* Light Cyan background */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Style for File Uploader */
+.stFileUploader > label {
+    background-color: #1565C0; /* Medical Blue */
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+/* Image Styling - Keep size consistent */
+.stImage img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    border: 2px solid #0B3D91;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Styling for Results */
+.result-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #D32F2F; /* Medical Red */
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+    background-color: #FFEBEE; /* Light Red Background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Column Layout Styling */
+div[data-testid="column"] {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
